@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obituario Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #c2e6ff;
+        }
+        h1 {
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+    margin-bottom: 40px;
+        }
+
+    h2 {
+    text-align: center;
+    color: #000000;
+        }
+
+        .obituario {
+            background: #ebebeb;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+        .persona { 
+            display: flex; 
+            align-items: flex-start; 
+            margin-bottom: 30px; 
+        } 
+        .persona img { 
+            width: 180px; 
+            height: 220px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+            margin-right: 20px; 
+            align-items: center; 
+        }
+
+
+        .info {
+            flex: 1;
+        }
+        .info h3 {
+            color: #444;
+            margin-bottom: 10px;
+        }
+        .info p {
+            text-align: justify;
+            line-height: 1.5;
+        }
+        .atributos {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Obituario Personal</h1>
+    <div class="obituario">
+        <div class="persona">
+            <img src="mi-foto.jpg" alt="Foto de Juan Solís">
+            <div class="info">
+                <h2>Historia de Juan Solís</h2>
+                <h3>Pasado</h3>
+                <p>Nací el 18 de enero del año 2002 en la ciudad de Panamá. He vivido grán parte de mi vida en Brisas del Golf desde 2006 hasta el presente junto a mis padres y mi hermano, empecé la escuela mas o menos en 2008 y finalicé en 2019. Desde niño me han gustado los videojuegos, el skateboarding, pasear con mi familia y amigos y las computadoras. Mi fijación por el Hardware y Software comenzó en 2014 cuando tuve que arreglar una computadora con mi papá y de ahí empecé a investigar sobre el tema por mi cuenta.</p>
+
+                <h3>Presente</h3>
+                <p>Actualmente curso la carrera de Gestión y Desarrollo de Software en la Universidad Tecnológica de Panamá. De manera autodidacta he aprendido sobre Diseño grafico, edición de videos. Tengo conocimientos basicos sobre desarrollo de software los cuales deseo ir mejorando con el tiempo. Soy guitarrista y estoy estudiando musica de forma autonoma para crear mi propia discografica llamada "Zombified Records" y busco crear mi propio estudio de videojuegos en un futuro.</p>
+
+                <h3>Características</h3>
+                <ul class="atributos">
+                    <li>Alegre y amable con los demás</li>
+                    <li>Responsable con mis asignaciones</li>
+                    <li>Organizado</li>
+                    <li>Creativo</li>
+                    <li>Disciplina y motivación</li>
+                </ul>
+
+                <h3>Futuro</h3>
+                <p>Mi objetivo es lograr graduarme y perfeccionar mis competencias en programación para ejercer de manera eficiente mis labores en el área de software. Busco aprender nuevos lenguajes de programación y con eso expandir mis oportunidades en el area. Pienso entrar a la carrera de Ciberseguridad una vez me gradue para adquirir conocimiento en el area y aspiro a crear mi propia casa desarrolladora de videojuegos, Actualmente llamada OceanSoftware.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="obituario">
+        <div class="persona">
+            <img src="foto.jpg" alt="Foto de Cristian Gonzalez">
+            
+            <div class="info">
+                <h2>Historia de Cristian Gonzalez</h2>
+                <h3>Pasado</h3>
+                <p>Nací en Panamá el 5 de marzo de 2005 empecé mis estudios en un instituto canadiense llamado Panama Heights International Academy o PHIA en donde fueron mis primeros pasos para lo que me gusta hoy en día que es programar ya sea en visual basic y html. </p>
+
+                <h3>Presente</h3>
+                <p>Actualmente curso la Carrera de Desarrollo y Gestión de Software en segundo año en donde he adquirido conocimientos en programación, bases de datos, y gestión de proyectos, con el objetivo de desarrollarme profesionalmente en el área tecnológica.</p>
+
+                <h3>Futuro</h3>
+                <p>mi meta es culminar con éxito la Carrera de Desarrollo y Gestión de Software, graduarme y seguir fortaleciendo mis conocimientos en programación. Aspiro a especializarme en el desarrollo de aplicaciones innovadoras, participar en proyectos tecnológicos que aporten valor a la sociedad y, con el tiempo, crecer profesionalmente hasta liderar equipos de desarrollo o emprender mis propios proyectos en el ámbito del software.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
